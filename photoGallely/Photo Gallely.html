@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallely</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="full-img" id="fullImgBox">
+    <img src="images/Image1.png" id="fullImg">
+    <span onclick="closeImage()"><img class="close" src="images/close.png" alt="close"></span>
+  </div>
+
+  <div class="gallely01_container">
+    <div class="images"><img src="images/Image1.png" alt="FENNEC FOX" class="image1">
+      <h1 class="Description">FENNEC<br>FOX</h1>
+      <p class="country">India</p>
+      <div class="knowMoreDiv">
+        <p class="knowMore" onclick="showImage(this.src='images/Image1.png')">Know more <img class="arrowImage"
+            src="images/arrowRight1.png" alt="">
+        </p>
+      </div>
+    </div>
+    <div class="images"><img src="images/Image2.png" alt="HUMPBACK WHALE" class="image2">
+      <h1 class="Description">HUMPBACK<br>WHALE</h1>
+      <p class="country">South Africa</p>
+      <div class="knowMoreDiv">
+        <p class="knowMore" onclick="showImage(this.src='images/Image2.png')">Know more <img class="arrowImage"
+            src="images/arrowRight1.png" alt=""></p>
+      </div>
+    </div>
+    <div class="images"><img src="images/Image3.png" alt="COMMON BROWN BOBOOM" class="image3">
+      <h1 class="Description">COMMON BROWN<br>BOBOOM</h1>
+      <p class="country">South Africa</p>
+      <div class="knowMoreDiv">
+        <p class="knowMore" onclick="showImage(this.src='images/Image3.png')">Know more <img class="arrowImage"
+            src="images/arrowRight1.png" alt=""></p>
+      </div>
+    </div>
+    <div class="images"><img src="images/Image4.png" alt="SPOTTED DEER" class="image4">
+      <h1 class="Description">SPOTTED<br>DEER</h1>
+      <p class="country">Amazon</p>
+
+      <div class="knowMoreDiv">
+        <p class="knowMore" onclick="showImage(this.src='images/Image4.png')">Know more <img class="arrowImage"
+            src="images/arrowRight1.png" alt=""></p>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
